@@ -74,7 +74,7 @@ Your dataset must be a CSV file containing at least the following columns:
 | `Email` | The recipient’s email address |
 
 ## Demo Video
-<video controls src="assets/client_outreach_demo.mp4" title="Title"></video>
+[Watch Demo Video on Google Drive](https://drive.google.com/file/d/1_pg1KJu8Jz1yZUogibHsqT5cQNSKfVND/view?usp=drive_link)
 
 ##  Project Structure
 
