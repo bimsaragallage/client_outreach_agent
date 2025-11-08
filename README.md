@@ -1,3 +1,9 @@
+## User Interface
+![alt text](<assets/Outreach Campaign Dashboard.png>)
+
+## Flow Diagram and Use Cases
+![alt text](assets/Client_outreach_flow.png)
+
 # Client Outreach Agent
 
 A production-ready, LangGraph-based automated client outreach system that manages lead discovery, content generation, campaign execution, and performance analysis — all running locally with data persistence.
@@ -66,6 +72,9 @@ Your dataset must be a CSV file containing at least the following columns:
 |---------|--------------|
 | `Business Name` | The name of the company or client |
 | `Email` | The recipient’s email address |
+
+## Demo Video
+<video controls src="assets/client_outreach_demo.mp4" title="Title"></video>
 
 ##  Project Structure
 
