@@ -82,7 +82,6 @@ Your dataset must be a CSV file containing at least the following columns:
 client_outreach_full
 ├── data
 │   ├── campaigns
-│   ├── leads
 │   ├── memory
 │   └── uploaded_leads
 ├── logs
