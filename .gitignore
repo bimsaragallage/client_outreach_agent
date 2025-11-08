@@ -1,0 +1,43 @@
+# ============================
+# Python Environment
+# ============================
+venv/
+.env
+__pycache__/
+*.pyc
+
+# ============================
+# Logs
+# (Keep folder, ignore files)
+# ============================
+logs/*
+!logs/.gitkeep
+
+# ============================
+# Data folders
+# (Keep folders, ignore contents)
+# ============================
+data/campaigns/*
+!data/campaigns/.gitkeep
+
+data/memory/*
+!data/memory/.gitkeep
+
+data/uploaded_leads/*
+!data/uploaded_leads/.gitkeep
+
+data/leads/*
+!data/leads/.gitkeep
+
+# ============================
+# IDE and System Files
+# ============================
+.vscode/
+.idea/
+.DS_Store
+
+# ============================
+# OS temporary / cache
+# ============================
+*.swp
+*.tmp

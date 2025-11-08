@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  outreach_api:
+    build: .
+    container_name: outreach_api
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    environment:
+      - TZ=Asia/Colombo
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
